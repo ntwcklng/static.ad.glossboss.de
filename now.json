@@ -1,5 +1,11 @@
 {
-    "version": 1,
+    "version": 2,
     "name": "ad.glossboss.de",
-    "alias": "ad.glossboss.de"
+    "alias": "ad.glossboss.de",
+    "builds": [
+        {
+            "src": "index.html",
+            "use": "@now/static"
+        }
+    ]
 }
