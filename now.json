@@ -2,6 +2,7 @@
     "version": 2,
     "name": "ad.glossboss.de",
     "alias": ["ad.glossboss.de"],
+    "regions": ["bru"],
     "builds": [
         {
             "src": "index.html",
