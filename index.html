@@ -1,43 +1,58 @@
-<head>
-    <meta charset="utf-8">
+<html>
+  <head>
+    <meta charset="utf-8" />
     <title>ad.glossboss.de</title>
     <script>
-        const urls = {
-                staubwedel: 'https://glossboss-shop.de/produkt/staubwedel/',
-                minimaschine: 'http://amzn.to/2z2RbP1',
-                kirklands: 'http://amzn.to/2yWExAS',
-                dashaway: 'http://amzn.to/2oJuM67',
-                rollhocker: 'http://amzn.to/2nwgqBV',
-                'detailing-swabs': 'https://glossboss-shop.de/produkt/detailing-swabs/',
-                'detailing-swabs-amzn': 'https://amzn.to/2JcemMr',
-                kopfhoerer: 'https://amzn.to/2J5uS1A',
-                kamera: 'https://amzn.to/2Lpwnrz',
-                abo: 'https://www.youtube.com/c/glossbossde?sub_confirmation=1',
-                mic: 'https://amzn.to/2DD6wtP',
-                stativ: 'https://amzn.to/2xIfPTR',
-                uc: 'https://amzn.to/2xUgzTw',
-                poliermaschine: 'https://amzn.to/2TWc3mX',
-                steinschlagstift: 'https://amzn.to/2v1LpKp',
-                'steinschlags..': 'https://amzn.to/2v1LpKp',
-                'steinschlags...': 'https://amzn.to/2v1LpKp',
-                'fluid-writer-pen': 'https://amzn.to/2v1LpKp',
-                kabel: 'https://amzn.to/2VooGHa',
-                shampoo: 'https://amzn.to/2J5inBK',
-                rituals: 'https://amzn.to/2W08A77',
-                auspuff: 'https://amzn.to/2ZbG5kw',
-                objektiv: 'https://amzn.to/2Lp7UTP',
-                schlagschrauber: 'https://amzn.to/2OkJT2D',
-                'schlagschrauber-zubehoer': 'https://amzn.to/30WXK0w',
-                schallabsorber: 'https://amzn.to/2SOS1a0',
-                'klassik-glass': 'https://amzn.to/2M4X5We'
-            }
-            if (location.hash.substr(1) in urls) {
-                window.location.replace(urls[location.hash.substr(1)])
-            } else {
-                document.write('was versuchst du hier?')
-            }
+      const urls = {
+        staubwedel: 'https://glossboss-shop.de/produkt/staubwedel/',
+        minimaschine: 'http://amzn.to/2z2RbP1',
+        kirklands: 'http://amzn.to/2yWExAS',
+        dashaway: 'http://amzn.to/2oJuM67',
+        rollhocker: 'http://amzn.to/2nwgqBV',
+        'detailing-swabs': 'https://glossboss-shop.de/produkt/detailing-swabs/',
+        'detailing-swabs-amzn': 'https://amzn.to/2JcemMr',
+        kopfhoerer: 'https://amzn.to/2J5uS1A',
+        kamera: 'https://amzn.to/2Lpwnrz',
+        abo: 'https://www.youtube.com/c/glossbossde?sub_confirmation=1',
+        mic: 'https://amzn.to/2DD6wtP',
+        stativ: 'https://amzn.to/2xIfPTR',
+        uc: 'https://amzn.to/2xUgzTw',
+        poliermaschine: 'https://amzn.to/2TWc3mX',
+        steinschlagstift: 'https://amzn.to/2v1LpKp',
+        'steinschlags..': 'https://amzn.to/2v1LpKp',
+        'steinschlags...': 'https://amzn.to/2v1LpKp',
+        'fluid-writer-pen': 'https://amzn.to/2v1LpKp',
+        kabel: 'https://amzn.to/2VooGHa',
+        shampoo: 'https://amzn.to/2J5inBK',
+        rituals: 'https://amzn.to/2W08A77',
+        auspuff: 'https://amzn.to/2ZbG5kw',
+        objektiv: 'https://amzn.to/2Lp7UTP',
+        schlagschrauber: 'https://amzn.to/2OkJT2D',
+        'schlagschrauber-zubehoer': 'https://amzn.to/30WXK0w',
+        schallabsorber: 'https://amzn.to/2SOS1a0',
+        'klassik-glass': 'https://amzn.to/2M4X5We',
+        'airbrush-kompressor': 'https://amzn.to/34rICdy',
+        wunschzettel:
+          'https://www.amazon.de/hz/wishlist/ls/1PHYOHZNRTBF3?ref_=wl_share'
+      }
+      if (location.hash.substr(1) in urls) {
+        window.location.replace(urls[location.hash.substr(1)])
+      } else {
+        const stromberg = [
+          'Wahrheit hat meistens ganz wenig mit Fakten zutun. Gefühlt Wahrheit - darum gehts!',
+          'Wenn man mir die Beine weghaut, kann ich immer noch auf den Arschbacken weiter hopsen.',
+          'Ich machs wie der liebe Gott. Der lässt sich auch nicht so oft blicken, hat aber trotzdem ein gutes Image!',
+          'Firmenfeiern sind wie das letzte Abendmahl. Immer zu wenig Weiber, das Essen ist schlecht und am Ende gibts Ärger',
+          'Kollegen sind wie Pickel, die hat man auch, ob man will oder nicht.',
+          'Die Titanic wurde von Profis erbaut. Die Arche Noah aber von einem Amateur.'
+        ]
+        document.write(
+          `${
+            stromberg[Math.floor(Math.random() * stromberg.length)]
+          } - Bernd Stromberg`
+        )
+      }
     </script>
-</head>
-<body>
-</body>
+  </head>
+  <body></body>
 </html>
