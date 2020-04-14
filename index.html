@@ -5,12 +5,16 @@
     <title>ad.glossboss.de</title>
     <script>
       const urls = {
-        'felgenbuerste':'https://www.autopflege-shop.de/wheel-woolies-felgenbursten-3er-set.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
-        'wheel-whoolies':'https://www.autopflege-shop.de/wheel-woolies-felgenbursten-3er-set.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
-        'wheel-woolies':'https://www.autopflege-shop.de/wheel-woolies-felgenbursten-3er-set.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
-        'schleifpaste':'https://www.waschhelden.de/Koch-Chemie-Heavy-Cut-H802-Grobe-Schleifpolitur-siliconoelfrei-250ml?jsta=gb',
+        felgenbuerste:
+          'https://www.autopflege-shop.de/wheel-woolies-felgenbursten-3er-set.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        'wheel-whoolies':
+          'https://www.autopflege-shop.de/wheel-woolies-felgenbursten-3er-set.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        'wheel-woolies':
+          'https://www.autopflege-shop.de/wheel-woolies-felgenbursten-3er-set.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        schleifpaste:
+          'https://www.waschhelden.de/Koch-Chemie-Heavy-Cut-H802-Grobe-Schleifpolitur-siliconoelfrei-250ml?jsta=gb',
         staubwedel: 'https://glossboss-shop.de/produkt/staubwedel/',
-        'whatsapp': 'https://chat.whatsapp.com/E0MszvRpESs9VfhdcRPFEG',
+        whatsapp: 'https://chat.whatsapp.com/E0MszvRpESs9VfhdcRPFEG',
         minimaschine: 'http://amzn.to/2z2RbP1',
         kirklands: 'http://amzn.to/2yWExAS',
         dashaway: 'http://amzn.to/2oJuM67',
@@ -24,7 +28,8 @@
         stativ: 'https://amzn.to/2xIfPTR',
         uc: 'https://amzn.to/2xUgzTw',
         poliermaschine: 'https://amzn.to/2TWc3mX',
-        steinschlagstift: 'https://www.autopflege-shop.de/fluid-writer-pen-profi-lacktupfer-stift-0-5mm.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        steinschlagstift:
+          'https://www.autopflege-shop.de/fluid-writer-pen-profi-lacktupfer-stift-0-5mm.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
         'steinschlags..': 'https://amzn.to/2v1LpKp',
         'steinschlags...': 'https://amzn.to/2v1LpKp',
         'fluid-writer-pen': 'https://amzn.to/2v1LpKp',
@@ -32,7 +37,8 @@
         shampoo: 'https://amzn.to/2J5inBK',
         rituals: 'https://amzn.to/2W08A77',
         'auspuff-amz': 'https://amzn.to/2ZbG5kw',
-        auspuff: 'https://www.waschhelden.de/Menzerna-Metal-Polishing-Cream-125gr?jsta=gb',
+        auspuff:
+          'https://www.waschhelden.de/Menzerna-Metal-Polishing-Cream-125gr?jsta=gb',
         objektiv: 'https://amzn.to/31k4nv8',
         schlagschrauber: 'https://amzn.to/2OkJT2D',
         'schlagschrauber-zubehoer': 'https://amzn.to/30WXK0w',
@@ -41,42 +47,80 @@
         'airbrush-kompressor': 'https://amzn.to/34rICdy',
         wunschzettel:
           'https://www.amazon.de/hz/wishlist/ls/1PHYOHZNRTBF3?ref_=wl_share',
-        'pxe-verlaengerung': 'https://www.autopflege-shop.de/aps-pro-fv50-50mm-verlaengerung-flex-pxe80.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
-        'pxe-spannfutter': 'https://www.autopflege-shop.de/aps-pro-fa50-50mm-verlaengerungadapter-flex-pxe80.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
-        'pxe-12mm': 'https://www.autopflege-shop.de/flex-dt-xf-12-exzenteradapter-12mm-hub.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
-        'pxe-50mm':'https://www.autopflege-shop.de/aps-pro-fp50-50mm-stuetzteller-klettteller-flex-pxe80-akku-minipolierer.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
-        'the-gauntlet':'https://glossboss-shop.de/produkt/the-rag-company-the-gauntlet-trockentuch/',
-        'trc':'https://glossboss-shop.de/kategorie/mikrofasertuecher/',
-        'polierkegel': 'https://www.autopflege-shop.de/aps-pro-nano-polishing-cone-nano-polierkegel-mittel-30mm-gelb.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
-        'perfect-finish':'https://www.waschhelden.de/Sonax-Profiline-PerfectFinish-Politur-250ml-1L?jsta=gb',
-        'atemschutzmaske':'https://www.autopflege-shop.de/3m-halbmaske-serie-7500-maskenkorper-ohne-filter.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
-        'scangrip-kit':'https://www.autopflege-shop.de/scangrip-colourmatch-essential-kit.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
-        'ccevo':'https://www.waschhelden.de/Sonax-Profiline-CeramicCoating-CC-Evo-Keramikversiegelung-235ml?jsta=gb',
-        'sonax80gruen':'https://www.waschhelden.de/Sonax-SchaumPad-Medium-Gruen-80mm?jsta=gb',
-'sonax80rot':'https://www.waschhelden.de/Sonax-SchaumPad-Hart-Rot-80mm?jsta=gb',
-'sonaxgelb':'https://www.waschhelden.de/Sonax-Polierschwamm-FinishPad-Gelb-Exzenter-143mm?jsta=gb',
-'sonaxrot':'https://www.waschhelden.de/Sonax-Polierschwamm-CutPad-Rot-Exzenter-143mm?jsta=gb',
-'rupes80gruen':'https://www.autopflege-shop.de/rupes-bigfoot-coarse-polierschwamm-medium-gruen-80-90mm.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
-'rupes80gelb':'https://www.autopflege-shop.de/rupes-bigfoot-polierschwamm-fine-gelb-80-90.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
-'rupesgruen':'https://www.autopflege-shop.de/rupes-bigfoot-polierschwamm-medium-gruen-130-150mm-2erpack.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
-'rupesgelb':'https://www.autopflege-shop.de/rupes-bigfoot-polierschwamm-fine-gelb-130-150mm.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
-'rupes30gruen':'https://www.autopflege-shop.de/rupes-bigfoot-ibrid-polierschaum-mittel-gruen-34-40mm.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
-'rupes30gelb':'https://www.autopflege-shop.de/rupes-bigfoot-ibrid-polierschaum-fein-gelb-34-40mm.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
-'lcccsorange':'https://www.autopflege-shop.de/lake-country-constant-pressure-ccs-light-cutting-pad-139cm.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
-'lc30orange':'https://www.lupus-autopflege.de/Lake-Country-Force-Orange-Cutting-Pad-32-42mm',
-'lc50orange':'https://www.lupus-autopflege.de/Lake-Country-Force-Orange-Cutting-Pad-52-62mm',
-'lcmicrofibercutting':'https://www.lupus-autopflege.de/Lake-Country-Microfiber-Cutting-Pad-525-133mm',
-'lc80microfibercutting':'https://www.lupus-autopflege.de/Lake-Country-Microfiber-Cutting-Pad-325-82mm',
-'lc30microfibercutting':'https://www.lupus-autopflege.de/Lake-Country-Microfiber-Cutting-Pad-32-42mm',
-'buffandshineuro':'https://www.lupus-autopflege.de/Buff-and-Shine-Uro-Microfiber-Pads-225-56mm',
-'polytoprot':'https://www.polytop-shop.de/cutting-pad-rot-excenter-140-x-25-mm-2er-pack.html',
-'polytoplila':'https://www.polytop-shop.de/anti-hologramm-pad-lila-excenter-140-x-25-mm-2er-pack.html',
-'polytop90lila':'https://www.polytop-shop.de/anti-hologramm-pad-lila-90-x-20-mm-2er-pack.html',
-'polytop90rot':'https://www.polytop-shop.de/cutting-pad-rot-90-x-20-mm-2er-pack.html',
-'lc101orange':'https://www.lupus-autopflege.de/Lake-Country-Constant-Pressure-Hi-Gloss-Orange-CCS-Light-Cutting-Pad-4-101mm',
-'meguiarsmfcutting':'https://amzn.to/2JdOqyp',
-        'rupes50gelb':'https://www.autopflege-shop.de/rupes-bigfoot-ibrid-polierschaum-fein-gelb-70-mm.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
-        'rupes50gruen':'https://www.autopflege-shop.de/rupes-bigfoot-ibrid-polierschaum-mittel-gruen-70-mm.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3'
+        'pxe-verlaengerung':
+          'https://www.autopflege-shop.de/aps-pro-fv50-50mm-verlaengerung-flex-pxe80.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        'pxe-spannfutter':
+          'https://www.autopflege-shop.de/aps-pro-fa50-50mm-verlaengerungadapter-flex-pxe80.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        'pxe-12mm':
+          'https://www.autopflege-shop.de/flex-dt-xf-12-exzenteradapter-12mm-hub.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        'pxe-50mm':
+          'https://www.autopflege-shop.de/aps-pro-fp50-50mm-stuetzteller-klettteller-flex-pxe80-akku-minipolierer.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        'the-gauntlet':
+          'https://glossboss-shop.de/produkt/the-rag-company-the-gauntlet-trockentuch/',
+        trc: 'https://glossboss-shop.de/kategorie/mikrofasertuecher/',
+        polierkegel:
+          'https://www.autopflege-shop.de/aps-pro-nano-polishing-cone-nano-polierkegel-mittel-30mm-gelb.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        'perfect-finish':
+          'https://www.waschhelden.de/Sonax-Profiline-PerfectFinish-Politur-250ml-1L?jsta=gb',
+        atemschutzmaske:
+          'https://www.autopflege-shop.de/3m-halbmaske-serie-7500-maskenkorper-ohne-filter.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        'scangrip-kit':
+          'https://www.autopflege-shop.de/scangrip-colourmatch-essential-kit.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        ccevo:
+          'https://www.waschhelden.de/Sonax-Profiline-CeramicCoating-CC-Evo-Keramikversiegelung-235ml?jsta=gb',
+        sonax80gruen:
+          'https://www.waschhelden.de/Sonax-SchaumPad-Medium-Gruen-80mm?jsta=gb',
+        sonax80rot:
+          'https://www.waschhelden.de/Sonax-SchaumPad-Hart-Rot-80mm?jsta=gb',
+        sonaxgelb:
+          'https://www.waschhelden.de/Sonax-Polierschwamm-FinishPad-Gelb-Exzenter-143mm?jsta=gb',
+        sonaxrot:
+          'https://www.waschhelden.de/Sonax-Polierschwamm-CutPad-Rot-Exzenter-143mm?jsta=gb',
+        rupes80gruen:
+          'https://www.autopflege-shop.de/rupes-bigfoot-coarse-polierschwamm-medium-gruen-80-90mm.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        rupes80gelb:
+          'https://www.autopflege-shop.de/rupes-bigfoot-polierschwamm-fine-gelb-80-90.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        rupesgruen:
+          'https://www.autopflege-shop.de/rupes-bigfoot-polierschwamm-medium-gruen-130-150mm-2erpack.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        rupesgelb:
+          'https://www.autopflege-shop.de/rupes-bigfoot-polierschwamm-fine-gelb-130-150mm.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        rupes30gruen:
+          'https://www.autopflege-shop.de/rupes-bigfoot-ibrid-polierschaum-mittel-gruen-34-40mm.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        rupes30gelb:
+          'https://www.autopflege-shop.de/rupes-bigfoot-ibrid-polierschaum-fein-gelb-34-40mm.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        lcccsorange:
+          'https://www.autopflege-shop.de/lake-country-constant-pressure-ccs-light-cutting-pad-139cm.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        lc30orange:
+          'https://www.lupus-autopflege.de/Lake-Country-Force-Orange-Cutting-Pad-32-42mm',
+        '30mmorange':
+          'https://www.autopflege-shop.de/aps-pro-zoom-poliermaschinenpad-minipolierer-cutting-32-45mm.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        '50mmorange':
+          'https://www.autopflege-shop.de/aps-pro-zoom-poliermaschinenpad-minipolierer-cutting-53-60mm.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        lc50orange:
+          'https://www.lupus-autopflege.de/Lake-Country-Force-Orange-Cutting-Pad-52-62mm',
+        lcmicrofibercutting:
+          'https://www.lupus-autopflege.de/Lake-Country-Microfiber-Cutting-Pad-525-133mm',
+        lc80microfibercutting:
+          'https://www.lupus-autopflege.de/Lake-Country-Microfiber-Cutting-Pad-325-82mm',
+        lc30microfibercutting:
+          'https://www.lupus-autopflege.de/Lake-Country-Microfiber-Cutting-Pad-32-42mm',
+        buffandshineuro:
+          'https://www.lupus-autopflege.de/Buff-and-Shine-Uro-Microfiber-Pads-225-56mm',
+        polytoprot:
+          'https://www.polytop-shop.de/cutting-pad-rot-excenter-140-x-25-mm-2er-pack.html',
+        polytoplila:
+          'https://www.polytop-shop.de/anti-hologramm-pad-lila-excenter-140-x-25-mm-2er-pack.html',
+        polytop90lila:
+          'https://www.polytop-shop.de/anti-hologramm-pad-lila-90-x-20-mm-2er-pack.html',
+        polytop90rot:
+          'https://www.polytop-shop.de/cutting-pad-rot-90-x-20-mm-2er-pack.html',
+        lc101orange:
+          'https://www.lupus-autopflege.de/Lake-Country-Constant-Pressure-Hi-Gloss-Orange-CCS-Light-Cutting-Pad-4-101mm',
+        meguiarsmfcutting: 'https://amzn.to/2JdOqyp',
+        rupes50gelb:
+          'https://www.autopflege-shop.de/rupes-bigfoot-ibrid-polierschaum-fein-gelb-70-mm.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
+        rupes50gruen:
+          'https://www.autopflege-shop.de/rupes-bigfoot-ibrid-polierschaum-mittel-gruen-70-mm.html?afref=eccbc87e4b5ce2fe28308fd9f2a7baf3',
       }
       if (location.hash.substr(1) in urls) {
         window.location.replace(urls[location.hash.substr(1)])
@@ -93,7 +137,7 @@
           'Arbeiten ist wie Sex in der Ehe: Am Anfang ist man bis in die Haarspitzen motiviert, doch nach einer Weile ist man froh, wenn es vorbei ist.',
           'Wenn dir einer oder eine blöd kommt, dann musst du denen noch blöder kommen. Weil sonst hängst du irgendwann da wie Jesus an Karfreitag.',
           'Wir sind Kollegen, keine Freunde. Es geht nicht darum, sich gegenseitig die Haare zu machen oder gemeinsam die Tage zu kriegen.',
-          'Büro ist wie Achterbahn fahren, ein ständiges Auf und Ab.Wenn man das 8 Stunden machen muss, TÄGLICH, dann kotzt man irgendwann.'
+          'Büro ist wie Achterbahn fahren, ein ständiges Auf und Ab.Wenn man das 8 Stunden machen muss, TÄGLICH, dann kotzt man irgendwann.',
         ]
         document.write(
           `${
